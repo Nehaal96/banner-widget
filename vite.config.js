@@ -9,8 +9,7 @@ export default defineConfig({
 			formats: ["umd"],
 		},
 		rollupOptions: {
-			// Make sure to externalize lit if you want to bundle it separately,
-			// or remove 'external' to bundle everything together.
+			// DO NOT externalize 'lit'!
 			// external: ['lit'],
 			output: {
 				globals: {

@@ -1,9 +1,4 @@
-import {
-	LitElement,
-	html,
-	css,
-} from "https://unpkg.com/lit@2.8.0/index.js?module";
-
+import { LitElement, html, css } from "lit";
 class VoucherBanner extends LitElement {
 	static styles = css`
 		:host {
